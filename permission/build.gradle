@@ -4,7 +4,8 @@ apply plugin: 'com.github.dcendents.android-maven'
 android {
     compileSdkVersion 26
 
-
+    group = 'com.abraham.api'
+    version = '1.0.0'
 
     defaultConfig {
         minSdkVersion 21
